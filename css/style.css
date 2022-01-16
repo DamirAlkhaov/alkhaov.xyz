@@ -134,4 +134,25 @@ nav {
     #primary-img-2 {
         transform: rotate(0);
     }
+    
+    .ms-auto{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+}
+
+@media (max-width: 960px) {
+    .navbar {
+        position:fixed;
+        top:0;
+        right:0;
+        left:0;
+        z-index:1030
+    }
+
+    #about {
+        margin-top: 35%;
+    }
 }
