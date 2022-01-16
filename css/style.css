@@ -135,10 +135,7 @@ nav {
         transform: rotate(0);
     }
     
-    .ms-auto{
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
 
     
 }
@@ -154,5 +151,9 @@ nav {
 
     #about {
         margin-top: 35%;
+    }
+    .ms-auto{
+        margin-left: auto; !important
+        margin-right: auto; !important
     }
 }
