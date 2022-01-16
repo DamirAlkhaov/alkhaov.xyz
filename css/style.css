@@ -1,0 +1,137 @@
+/* shared */
+
+body {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.bg-main {
+    background-color: #31364C;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.link:hover {
+    color: grey;
+    transition: 0.25s;
+}
+
+h1 {
+    margin: 3% 0;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2,h3,h4,h5,h6 {
+    margin: 3% 2%;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+.image-icon {
+    width: 20%;
+}
+
+#primary, #skills, #projects, #cta, #footer {
+    padding: 6% 15%;
+}
+
+#skills, #cta {
+    background-color: #383838;
+}
+
+#primary, #projects, #footer {
+    background-color: #31364C;
+}
+
+/* primary */
+
+#primary {
+    
+    padding-bottom: 10%;
+}
+
+nav {
+    font-family: 'Comfortaa';
+    margin-bottom: 15%;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    
+    font-weight: 700;
+}
+
+.navbar-image {
+    width: 10%;
+}
+
+.primary-images {
+    position: absolute;
+    width: 25%;
+}
+
+#primary-img-1 {
+    right: 5%;
+    bottom: 12%;
+    transform: rotate(-25deg);
+}
+
+#primary-img-2 {
+    right: 25%;
+    bottom: 12%;
+    transform: rotate(15deg);
+}
+
+/* projects */
+
+.divider-hr {
+    margin-bottom: 25px;
+}
+
+.carousel {
+    margin: 10% 0;
+    text-align: center;
+    
+}
+
+.carousel-inner {
+    padding: 0 15%;
+}
+
+.carousel-img {
+    width: 85%;
+    border: white solid 4px;
+}
+
+/* contact */
+
+.footer-icon {
+    margin: 10px 15px;
+}
+
+/* media */
+
+@media (max-width: 1176px) {
+    body {
+        text-align: center;
+    }
+    .primary-images {
+        position: static;
+        width: 50%;
+    }
+    
+    #primary-img-1 {
+        transform: rotate(0);
+    }
+    
+    #primary-img-2 {
+        transform: rotate(0);
+    }
+}
